@@ -1,0 +1,13 @@
+.font{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.subHeading {
+    .font;
+    font-weight: 400;
+}
+
+.Heading {
+    .font;
+    font-weight: 900;
+}
