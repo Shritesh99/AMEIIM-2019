@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+.font{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.font.subHeading {
+  font-weight: 400;
+}
+
+.font .Heading {
+  font-weight: 900;
+}
