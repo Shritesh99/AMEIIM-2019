@@ -1,13 +1,21 @@
 {
-  "main.css": "/ameiim-2019/static/css/main.e374c562.chunk.css",
-  "main.js": "/ameiim-2019/static/js/main.8bd8027f.chunk.js",
-  "main.js.map": "/ameiim-2019/static/js/main.8bd8027f.chunk.js.map",
+  "main.css": "/ameiim-2019/static/css/main.65eda78e.chunk.css",
+  "main.js": "/ameiim-2019/static/js/main.71c89742.chunk.js",
+  "main.js.map": "/ameiim-2019/static/js/main.71c89742.chunk.js.map",
   "runtime~main.js": "/ameiim-2019/static/js/runtime~main.cbc4e9d9.js",
   "runtime~main.js.map": "/ameiim-2019/static/js/runtime~main.cbc4e9d9.js.map",
-  "static/js/2.65aa1cca.chunk.js": "/ameiim-2019/static/js/2.65aa1cca.chunk.js",
-  "static/js/2.65aa1cca.chunk.js.map": "/ameiim-2019/static/js/2.65aa1cca.chunk.js.map",
+  "static/js/2.e703e8cc.chunk.js": "/ameiim-2019/static/js/2.e703e8cc.chunk.js",
+  "static/js/2.e703e8cc.chunk.js.map": "/ameiim-2019/static/js/2.e703e8cc.chunk.js.map",
   "index.html": "/ameiim-2019/index.html",
-  "precache-manifest.ac01c021ffc2a85ae0e75a6f566ea52f.js": "/ameiim-2019/precache-manifest.ac01c021ffc2a85ae0e75a6f566ea52f.js",
+  "precache-manifest.35235c3a424afa73a09e871dc68524b8.js": "/ameiim-2019/precache-manifest.35235c3a424afa73a09e871dc68524b8.js",
   "service-worker.js": "/ameiim-2019/service-worker.js",
-  "static/css/main.e374c562.chunk.css.map": "/ameiim-2019/static/css/main.e374c562.chunk.css.map"
+  "static/css/main.65eda78e.chunk.css.map": "/ameiim-2019/static/css/main.65eda78e.chunk.css.map",
+  "static/media/logo1.jpeg": "/ameiim-2019/static/media/logo1.662d49e1.jpeg",
+  "static/media/logo2.jpeg": "/ameiim-2019/static/media/logo2.f0a12318.jpeg",
+  "static/media/logo3.jpeg": "/ameiim-2019/static/media/logo3.dbab1857.jpeg",
+  "static/media/logo4.jpeg": "/ameiim-2019/static/media/logo4.3ac7e2e2.jpeg",
+  "static/media/nit.jpeg": "/ameiim-2019/static/media/nit.b6243d4b.jpeg",
+  "static/media/paper.svg": "/ameiim-2019/static/media/paper.ad41e0f2.svg",
+  "static/media/raipur.jpg": "/ameiim-2019/static/media/raipur.c9c03024.jpg",
+  "static/media/submit.svg": "/ameiim-2019/static/media/submit.45203f6a.svg"
 }
