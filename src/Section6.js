@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Section6 extends Component {
     render() {
         return (
-            <section className="hero is-fullheight">
+            <section id="aboutus" className="hero is-fullheight">
                 <div className="hero-head">
                     <div className="container has-text-centered">
                         <div className="title is-2 heading level-item">
@@ -104,7 +104,7 @@ class Section6 extends Component {
                     <div className="columns is-vcentered">
                         <div className="column has-text-right">
                             <figure className="image">
-                                <img alt="Submit" src={require('./img/raipur.jpg')}/>
+                                <img alt="Submit" src={require('./img/raipur.jpeg')}/>
                             </figure>
                         </div>
                         <div className="column">

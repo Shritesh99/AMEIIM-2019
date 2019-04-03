@@ -3,46 +3,48 @@ import React, { Component } from 'react';
 class Section1 extends Component {
     render() {
         return (
-            <section className="hero is-fullheight">
+            <section id="home" className="hero is-fullheight">
                 <div className="hero-head">
                     <nav className="navbar">
                         <div className="container">
                             <div className="navbar-brand">
+                                <a href="#home">
                                 <div className="navbar-item title">
                                     <div className="subHeading">
                                         AMEIIM-2019
                                     </div>
                                 </div>
+                                </a>
                             </div>
                             <div id="navbarMenuHeroA" className="navbar-menu">
                                 <div className="navbar-end">
-                                    <a className="navbar-item">
+                                    <a href="#dates" className="navbar-item">
                                         <div className="font subtitle is-4">
                                             Dates
                                         </div>
                                     </a>
-                                    <a className="navbar-item">
+                                    <a href="#papers" className="navbar-item">
                                         <div className="font subtitle is-4">
-                                            Submission Procedure
+                                            Call For Papers
                                         </div>
                                     </a>
-                                    <a className="navbar-item">
+                                    <a href="#fees" className="navbar-item">
                                         <div className="font subtitle is-4">
-                                            Pricing
+                                            Fees
                                         </div>
                                     </a>
-                                    <a className="navbar-item">
+                                    <a href="#aboutus" className="navbar-item">
                                         <div className="font subtitle is-4">
                                             About Us
                                         </div>
                                     </a>
                                     <div className="navbar-item">
-                                        <a href="/">
-                    <span className="button is-success is-medium">
-                      <div className="font subtitle is-4 has-text-white">
-                       Register
-                    </div>
-                    </span>
+                                        <a href="#register">
+                                            <span className="button is-success is-medium">
+                                               <div className="font subtitle is-4 has-text-white">
+                                                 Register
+                                               </div>
+                                             </span>
                                         </a>
                                     </div>
                                 </div>
@@ -54,26 +56,37 @@ class Section1 extends Component {
 
                 <div className="hero-body">
                     <div className="container has-text-centered ">
-                        <div className="title is-2 heading">
+                        <div className="columns is-vcentered">
+                            <div className="column">
+                                <figure className="image">
+                                    <img alt="Submit" src={require('./img/landing.svg')}/>
+                                </figure>
+                            </div>
+                            <div className="column">
+                        <div className="title is-3 heading">
                             1st International Conference
                         </div>
-                        <div className="subtitle is-3">
+                        <div className="subtitle is-4">
                             <div className="subHeading">
                                 On
                             </div>
                         </div>
 
-                        <div className="title is-2 heading">
-                            Advances in Mechanical Engineering, Industrial Informatics and Management
+                        <div className="title is-4 has-text-black heading">
+                            Advances in Mechanical Engineering Industrial Informatics and Management
                         </div>
 
-                        <div className="subtitle is-3 subHeading">
+                        <div className="subtitle is-4 subHeading">
                             13th-14th December 2019
                         </div>
+                        <a href="#register">
                         <div className="button is-success is-large">
-                            <div className="font subtitle is-3 has-text-white">
+                            <div className="font subtitle is-4 has-text-white">
                                 Register
                             </div>
+                        </div>
+                        </a>
+                    </div>
                         </div>
                     </div>
                 </div>

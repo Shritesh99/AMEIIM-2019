@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Section2 extends Component {
     render() {
         return (
-            <section className="hero is-fullheight">
+            <section id="dates" className="hero is-fullheight">
                 <div className="hero-head">
                     <div className="container has-text-centered">
                         <div className="card">
@@ -24,7 +24,7 @@ class Section2 extends Component {
                                     </div>
                                     <div className="column">
                                         <div className="font subtitle is-4 has-text-black">
-                                            15th June 2019
+                                            15th July 2019
                                         </div>
                                     </div>
                                 </div>
@@ -37,7 +37,7 @@ class Section2 extends Component {
                                     </div>
                                     <div className="column">
                                         <div className="font subtitle is-4">
-                                            30th June 2019
+                                            30th July 2019
                                         </div>
                                     </div>
                                 </div>
@@ -93,7 +93,6 @@ class Section2 extends Component {
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>

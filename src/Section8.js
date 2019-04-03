@@ -18,19 +18,7 @@ class Section8 extends Component{
                             <div className="columns">
                                 <div className="column">
                                     <div className="subtitle is-5 subheading has-text-left">
-                                        Dr. Jagadish
-                                    </div>
-                                </div>
-                                <div className="column">
-                                    <div className="subtitle is-5 subheading has-text-left">
-                                        +91-8811940517
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="columns">
-                                <div className="column">
-                                    <div className="subtitle is-5 subheading has-text-left">
-                                        Dr. Suraj Kumar Mukti
+                                        <b>Dr. Suraj Kumar Mukti</b>
                                     </div>
                                 </div>
                                 <div className="column">
@@ -42,12 +30,12 @@ class Section8 extends Component{
                             <div className="columns">
                                 <div className="column">
                                     <div className="subtitle is-5 subheading has-text-left">
-                                        Dr. Mridul Singh Rajput
+                                        <b>Dr. Jagadish</b>
                                     </div>
                                 </div>
                                 <div className="column">
                                     <div className="subtitle is-5 subheading has-text-left">
-                                        +91-7587462217
+                                        +91-8811940517
                                     </div>
                                 </div>
                             </div>
@@ -65,6 +53,12 @@ class Section8 extends Component{
                                 Email: <a href="mailto:ameiim2019@gmail.com">ameiim2019@gmail.com</a>
                             </address>
                         </div>
+                    </div>
+                    <div className="subtitle is-6 heading has-text-centered">
+                        © 2019 | AMEIIM-2019. All Rights Reserved
+                    </div>
+                    <div className="subtitle is-6 heading has-text-centered">
+                        Designed and Maintained By NIT Raipur.
                     </div>
                 </div>
             </footer>

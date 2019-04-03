@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Section3 extends Component {
     render() {
         return (
-            <section className="hero is-fullheight">
+            <section id="register" className="hero is-fullheight">
                 <div className="hero-head">
                     <div className="container has-text-centered">
                         <div className="title is-2 heading level-item">
@@ -22,8 +22,16 @@ class Section3 extends Component {
                                     EasyChair web-portal using the following <a href="https://easychair.org/conferences/?conf=ameiim2019">link</a> or Authors can
                                     also submit the abstracts using email with the following <a href="mailto:ameiim2019@gmail.com">email-address</a>. Full contact information (name, affiliation,
                                     email ID and and Tel/Fax number) of the corresponding author should be
-                                    provided in the email.
+                                    provided in the email. Ready to register click the button below to proceed.
                                 </div>
+
+                                <a href="https://easychair.org/conferences/?conf=ameiim2019">
+                                    <div className="button is-success is-large">
+                                        <div className="font subtitle is-3 has-text-white">
+                                            Register
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                             <div className="column">
                                 <figure className="image">

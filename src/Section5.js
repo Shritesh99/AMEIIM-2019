@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Section5 extends Component {
     render() {
         return (
-            <section className="hero is-fullheight">
+            <section id="papers" className="hero is-fullheight">
                 <div className="hero-head">
                     <div className="container has-text-centered">
                         <div className="title is-2 heading level-item">
@@ -28,7 +28,8 @@ class Section5 extends Component {
                                     research on any of the following themes although not limited to
                                     following areas:
                                 </div>
-                                <ul>
+                                <div className="content">
+                                    <ul>
                                     <li>
                                         <div className="font subtitle is-5 has-text-left">
                                             Advance in Thermal Engineering
@@ -114,7 +115,7 @@ class Section5 extends Component {
                                             Industrial Engineering and Management
                                         </div>
                                     </li>
-                                </ul>
+                                </ul></div>
                             </div>
                         </div>
                     </div>
