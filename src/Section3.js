@@ -6,10 +6,8 @@ class Section3 extends Component {
             <section id="register" className="hero is-fullheight">
                 <div className="hero-head">
                     <div className="container has-text-centered">
-                        <div className="title is-2 heading level-item">
-                            <div className="has-text-centered">
+                        <div className="title is-2 heading">
                                 Submission Procedure
-                            </div>
                         </div>
                     </div>
                 </div>

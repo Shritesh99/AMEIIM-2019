@@ -1,37 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .font{
   font-family: 'Titillium Web', sans-serif;
 }
@@ -43,3 +9,91 @@
 .font .Heading {
   font-weight: 900;
 }
+
+
+.scroll-slow {
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+.scroll-slow #left {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);
+  transform:translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-slow 25s linear infinite;
+  -webkit-animation: scroll-slow 25s linear infinite;
+  animation: scroll-slow 25s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-slow {
+  0%   { -moz-transform: translateX(100%); }
+  100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-slow {
+  0%   { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-slow {
+  0%   {
+    -moz-transform: translateX(100%); /* Browser bug fix */
+    -webkit-transform: translateX(100%); /* Browser bug fix */
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%); /* Browser bug fix */
+    -webkit-transform: translateX(-100%); /* Browser bug fix */
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-up {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.scroll-up #up {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  -moz-transform:translateY(100%);
+  -webkit-transform:translateY(100%);
+  transform:translateY(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-up 25s linear infinite;
+  -webkit-animation: scroll-up 25s linear infinite;
+  animation: scroll-up 25s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-up {
+  0%   { -moz-transform: translateY(100%); }
+  100% { -moz-transform: translateY(-100%); }
+}
+@-webkit-keyframes scroll-up {
+  0%   { -webkit-transform: translateY(100%); }
+  100% { -webkit-transform: translateY(-100%); }
+}
+@keyframes scroll-up {
+  0%   {
+    -moz-transform: translateY(100%); /* Browser bug fix */
+    -webkit-transform: translateY(100%); /* Browser bug fix */
+    transform: translateY(100%);
+  }
+  100% {
+    -moz-transform: translateY(-100%); /* Browser bug fix */
+    -webkit-transform: translateY(-100%); /* Browser bug fix */
+    transform: translateY(-100%);
+  }
+}
+

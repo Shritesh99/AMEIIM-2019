@@ -6,10 +6,8 @@ class Section5 extends Component {
             <section id="papers" className="hero is-fullheight">
                 <div className="hero-head">
                     <div className="container has-text-centered">
-                        <div className="title is-2 heading level-item">
-                            <div className="has-text-centered">
+                        <div className="title is-2 heading">
                                 Call for Papers
-                            </div>
                         </div>
                     </div>
                 </div>

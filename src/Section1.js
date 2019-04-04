@@ -64,7 +64,7 @@ class Section1 extends Component {
                             </div>
                             <div className="column">
                         <div className="title is-3 heading">
-                            1st International Conference
+                            1<sup>st</sup> International Conference
                         </div>
                         <div className="subtitle is-4">
                             <div className="subHeading">
@@ -89,6 +89,15 @@ class Section1 extends Component {
                     </div>
                         </div>
                     </div>
+                </div>
+                <div className="container">
+                        <div className="scroll-slow has-text-centered" style={{backgroundColor: "#7FCF6F"}}>
+                            <p id="left">
+                                <div className="font subtitle is-4 has-text-white">
+                                    Last Date Abstract submission: 15th July 2019
+                                </div>
+                            </p>
+                        </div>
                 </div>
             </section>
         );
