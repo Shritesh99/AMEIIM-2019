@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class AboutUs extends Component {
   render() {
     return (
-      <section id="aboutus" className="hero is-fullheight">
+      <section id="aboutus" className="section hero is-fullheight">
         <div className="hero-head">
           <div className="container has-text-centered">
             <div className="title is-2 heading level-item">

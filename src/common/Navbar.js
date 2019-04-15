@@ -23,10 +23,13 @@ class Navbar extends Component {
                 <a href="/#dates" className="navbar-item">
                     <div className="font subtitle is-5">DATES</div>
                 </a>
-                <a href="#papers" className="navbar-item">
+                <a href="/committee" className="navbar-item">
                   <div className="font subtitle is-5">COMMITTEE</div>
                 </a>
-                <a href="#fees" className="navbar-item">
+                <a href="/conference" className="navbar-item">
+                  <div className="font subtitle is-5">CONFERENCE</div>
+                </a>
+                <a href="/accmodation" className="navbar-item">
                   <div className="font subtitle is-5">ACCMODATIONS</div>
                 </a>
                 <a href="/aboutus" className="navbar-item">
@@ -47,14 +50,14 @@ class Navbar extends Component {
         </nav>
           <div className="container" style={{ padding: 10}}>
               <div
-                  className="scroll-slow has-text-centered"
+                  className="has-text-centered"
                   style={{ backgroundColor: "#7FCF6F" }}
               >
-                  <p id="left">
-                      <div className="font subtitle is-4 has-text-white">
-                          Last Date Abstract submission: 15th July 2019
-                      </div>
-                  </p>
+                  <marquee onMouseover="this.stop()" onmouseout="this.start()" scrollamount="4" behavior="scroll" direction="left">
+                    <div className="font subtitle is-4 has-text-white">
+                      Last Date Abstract submission: 15th July 2019
+                    </div>
+                 </marquee>
               </div>
           </div>
 

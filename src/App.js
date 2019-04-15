@@ -1,29 +1,33 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Loader from "react-loader-spinner";
 import AboutUs from "./AboutUs";
 import Home from "./Home";
+import Committee from "./Committee";
 import Navbar from "./common/Navbar";
 import Footer from "./Footer";
+import Accommodations from "./Accommodation";
+import Conference from "./Conference";
+
 
 class App extends Component {
   constructor() {
     super();
-    this.state = { loaded: true };
+    this.state = { loading: false };
   }
 
   componentDidMount() {
-    this.timerHandle = setTimeout(
-      () => this.setState({ loading: false }),
-      3500
-    );
+    // this.timerHandle = setTimeout(
+    //   () => this.setState({ loading: false }),
+    //   3500
+    // );
   }
   componentWillUnmount() {
-    if (this.timerHandle) {
-      clearTimeout(this.timerHandle);
-      this.timerHandle = 0;
-    }
+    // if (this.timerHandle) {
+    //   clearTimeout(this.timerHandle);
+    //   this.timerHandle = 0;
+    // }
   }
   render() {
     if (!this.state.loading)
@@ -31,7 +35,10 @@ class App extends Component {
         <Router>
             <Navbar/>
             <Route path="/" exact component={Home} />
-            <Route path="/aboutus/" component={AboutUs} />
+            <Route path="/committee" exact component={Committee} />
+            <Route path="/conference" component={Conference} />
+            <Route path="/accommodations" component={Accommodations} />
+            <Route path="/aboutus" component={AboutUs} />
             <Footer />
         </Router>
       );

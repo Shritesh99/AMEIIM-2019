@@ -13,95 +13,99 @@ class Section2 extends Component {
                     <div className="has-text-centered">Dates</div>
                   </div>
                 </div>
-
-                <div className="card-content">
-                  <div className="scroll-up">
-                    <p id="up">
-                      <div className="content">
-
-                        <div className="columns">
-                          <div className="column">
-                            <div className="font subtitle is-4 has-text-black">
-                              Last Date Abstract submission:
+                <marquee
+                  onmouseover="stop()"
+                  onmouseout="start()"
+                  scrollamount="4"
+                  behavior="scroll"
+                  direction="UP"
+                >
+                  <div className="card-content">
+                    <div className="scroll-up">
+                      <p id="up">
+                        <div className="content has-text-centered">
+                          <div className="columns">
+                            <div className="column">
+                              <div className="font subtitle is-4 has-text-black">
+                                Last Date Abstract submission:
+                              </div>
+                            </div>
+                            <div className="column">
+                              <div className="font subtitle is-4 has-text-black">
+                                15th July 2019
+                              </div>
                             </div>
                           </div>
-                          <div className="column">
-                            <div className="font subtitle is-4 has-text-black">
-                              15th July 2019
+
+                          <div className="columns">
+                            <div className="column">
+                              <div className="font subtitle is-4">
+                                Notification of Abstract Acceptance:
+                              </div>
+                            </div>
+                            <div className="column">
+                              <div className="font subtitle is-4">
+                                30th July 2019
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="columns">
+                            <div className="column">
+                              <div className="font subtitle is-4">
+                                Full Paper Submission:
+                              </div>
+                            </div>
+                            <div className="column">
+                              <div className="font subtitle is-4">
+                                13th August 2019
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="columns">
+                            <div className="column">
+                              <div className="font subtitle is-4 has-text-black">
+                                Final Acceptance Notification:
+                              </div>
+                            </div>
+                            <div className="column">
+                              <div className="font subtitle is-4 has-text-black">
+                                6th October 2019
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="columns">
+                            <div className="column">
+                              <div className="font subtitle is-4">
+                                Early Bird Registration Starts:
+                              </div>
+                            </div>
+                            <div className="column">
+                              <div className="font subtitle is-4">
+                                13th October 2019
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="columns">
+                            <div className="column">
+                              <div className="font subtitle is-4 has-text-black">
+                                Early Bird Registration Ends:
+                              </div>
+                            </div>
+                            <div className="column">
+                              <div className="font subtitle is-4 has-text-black">
+                                13th November 2019
+                              </div>
                             </div>
                           </div>
                         </div>
-
-                        <div className="columns">
-                          <div className="column">
-                            <div className="font subtitle is-4">
-                              Notification of Abstract Acceptance:
-                            </div>
-                          </div>
-                          <div className="column">
-                            <div className="font subtitle is-4">
-                              30th July 2019
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="columns">
-                          <div className="column">
-                            <div className="font subtitle is-4">
-                              Full Paper Submission:
-                            </div>
-                          </div>
-                          <div className="column">
-                            <div className="font subtitle is-4">
-                              13th August 2019
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="columns">
-                          <div className="column">
-                            <div className="font subtitle is-4 has-text-black">
-                              Final Acceptance Notification:
-                            </div>
-                          </div>
-                          <div className="column">
-                            <div className="font subtitle is-4 has-text-black">
-                              6th October 2019
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="columns">
-                          <div className="column">
-                            <div className="font subtitle is-4">
-                              Early Bird Registration Starts:
-                            </div>
-                          </div>
-                          <div className="column">
-                            <div className="font subtitle is-4">
-                              13th October 2019
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="columns">
-                          <div className="column">
-                            <div className="font subtitle is-4 has-text-black">
-                              Early Bird Registration Ends:
-                            </div>
-                          </div>
-                          <div className="column">
-                            <div className="font subtitle is-4 has-text-black">
-                              13th November 2019
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-
-                    </p>
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </marquee>
               </div>
             </div>
             <div className="column">
