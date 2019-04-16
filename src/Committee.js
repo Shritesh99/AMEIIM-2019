@@ -204,7 +204,7 @@ class Committee extends Component {
                     >
                       <img
                         alt="Submit"
-                        style={{ width: 150, hieght: 200 }}
+                        style={{ width: 150, height: 200 }}
                         src={require("./img/Dr_Mukti.jpeg")}
                       />
                     </a>
