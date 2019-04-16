@@ -7,12 +7,12 @@ class Navbar extends Component {
         <nav className="navbar" style={{ marginTop: 10 }}>
           <div className="container">
             <div className="navbar-brand">
-              <a href="#home">
+              <a href="/">
                 <figure className="image is-48x48">
                   <img alt="Submit" src={require("../img/logo.svg")} />
                 </figure>
               </a>
-              <a className="navbar-item" href="#home">
+              <a className="navbar-item" href="/">
                 <div className="title">
                   <div className="subHeading">AMEIIM-2019</div>
                 </div>
