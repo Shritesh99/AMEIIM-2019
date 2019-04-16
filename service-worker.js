@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/AMEIIM-2019/precache-manifest.29cf33f5f03e94a450d919cab4213f5f.js"
+  "/AMEIIM-2019/precache-manifest.d986ed3c1c6d978dd415f74362d69472.js"
 );
 
 workbox.clientsClaim();
