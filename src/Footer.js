@@ -58,7 +58,7 @@ class Footer extends Component{
                         © 2019 | AMEIIM-2019. All Rights Reserved
                     </div>
                     <div className="subtitle is-6 heading has-text-centered">
-                        Developed and Maintained By <a href="http://shri99.me/" target="_blank"> Shritesh</a>.
+                        Developed and Maintained By <a href="http://shri99.me/" target="_blank">Shritesh (NIT Raipur)</a>.
                     </div>
                 </div>
             </footer>

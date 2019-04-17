@@ -9,7 +9,7 @@ class Section3 extends Component {
             <div className="columns is-vcentered">
               <div className="column">
                 <div className="font subtitle is-4 has-text-justified">
-                  Abstract and full length paper need to be submitted through the Easy chair Conference papers submission web-portal. Those who do not have an easy chair account will need to create one
+                  Abstract and full length paper need to be submitted through the Easy chair submission web-portal.
                 </div>
                 <div className="columns">
                   <div className="column has-text-centered">

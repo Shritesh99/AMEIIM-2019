@@ -14,100 +14,103 @@ class Papers extends Component {
             <div className="hero-body">
                 <div className="container has-text-centered">
                         <div className="column">
-                            <div className="Heading title is-5 has-text-left">
-                                Students, Faculties, Research Scholars, Scientist and Industrial
-                                Executives are welcome to submit the one-page abstract of their
-                                research on any of the following themes although not limited to
-                                following areas:
+                            <div className="Heading title is-3 has-text-left">
+                                Scopes of the International Conference in Advances in Mechanical Engineering,
+                                Industrial Informatics and Management (AMEIIM-2019) during December 13<sup>th</sup>- 14<sup>th</sup>, 2019  at National Institute of Technology Raipur.
                             </div>
-                            <div className="content">
                                 <ul>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Advance in Thermal Engineering
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 1: Advance in Thermal Engineering
                                         </div>
-                                    </li>
+                                    </li><br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Mechanical System Design
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 2: Mechanical System Design
                                         </div>
-                                    </li>
+                                    </li><br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Vibration and Control
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 3: Vibration and Control
                                         </div>
-                                    </li>
+                                    </li><br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Advanced Manufacturing Technologies
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 4: Advanced Manufacturing Technologies
                                         </div>
-                                    </li>
+                                    </li><br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Green Manufacturing / Lean Manufacturing
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 5: Green Manufacturing / Lean Manufacturing
                                         </div>
-                                    </li>
+                                    </li><br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Additive Manufacturing /Reverse Engineering / Re-Engineering
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 6: Additive Manufacturing /Reverse Engineering / Re-Engineering
                                         </div>
-                                    </li>
+                                    </li><br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Advancements in Material and Metallurgical Processes
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 7: Advancements in Material and Metallurgical Processes
                                         </div>
-                                    </li>
+                                    </li><br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            CAD/CAM/CIM
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 8: CAD/CAM/CIM
                                         </div>
-                                    </li>
+                                    </li><br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Robotics and Automation
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 9: Robotics and Automation
                                         </div>
-                                    </li>
+                                    </li><br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Modeling, Analysis and Simulation of Mechanical System
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 10: Modeling, Analysis and Simulation of Mechanical System
                                         </div>
-                                    </li>
+                                    </li><br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Optimization Techniques
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 11: Optimization Techniques
                                         </div>
                                     </li>
+                                    <br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Internet of Things (IoT)
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 12: Internet of Things (IoT)
                                         </div>
                                     </li>
+                                    <br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Industry 4.0
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 13: Industry 4.0
                                         </div>
                                     </li>
+                                    <br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Soft Computing and Artificial Intelligence
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 14: Soft Computing and Artificial Intelligence
                                         </div>
                                     </li>
+                                    <br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Enterprise Resource Planning
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 15: Enterprise Resource Planning
                                         </div>
                                     </li>
+                                    <br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Management Information System
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 16: Management Information System
                                         </div>
                                     </li>
+                                    <br/>
                                     <li>
-                                        <div className="font subtitle is-5 has-text-left">
-                                            Industrial Engineering and Management
+                                        <div className="font subtitle is-4 has-text-left">
+                                            Track 17: Industrial Engineering and Management
                                         </div>
                                     </li>
-                                </ul></div>
+                                </ul>
                         </div>
                 </div>
             </div>

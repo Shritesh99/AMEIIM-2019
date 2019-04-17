@@ -25,7 +25,7 @@ class AboutUs extends Component {
                   Mechanical Engineering, NIT Raipur is organizing its 1st
                   International Conference on Advances in Mechanical
                   Engineering, Industrial Informatics and Management
-                  (AMEIIM-2019) on 13th-14th December, 2019 for deliberating
+                  (AMEIIM-2019) on 13<sup>th</sup>-14<sup>th</sup> December, 2019 for deliberating
                   with distinguished experts in this field. This invitation is
                   open for all academicians, research scholars, post-docs, PG
                   and UG students functioning in the relevant areas. It also

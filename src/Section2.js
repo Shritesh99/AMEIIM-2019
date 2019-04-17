@@ -16,7 +16,7 @@ class Section2 extends Component {
                 <div className="card-content">
                   <div className="scroll-up">
                     <p id="up">
-                      <div className="content has-text-centered">
+                      <div className="content has-text-justified">
                         <div className="columns">
                           <div className="column">
                             <div className="font subtitle is-4 has-text-black">
@@ -47,12 +47,12 @@ class Section2 extends Component {
 
                         <div className="columns">
                           <div className="column">
-                            <div className="font subtitle is-4">
+                            <div className="font subtitle is-4 has-text-weight-bold">
                               Full Paper Submission:
                             </div>
                           </div>
                           <div className="column">
-                            <div className="font subtitle is-4">
+                            <div className="font subtitle is-4 has-text-weight-bold">
                               31
                               <sup>th</sup> August 2019
                             </div>
@@ -75,12 +75,12 @@ class Section2 extends Component {
 
                         <div className="columns">
                           <div className="column">
-                            <div className="font subtitle is-4">
+                            <div className="font subtitle is-4 has-text-weight-bold">
                               Early Bird Registration Starts:
                             </div>
                           </div>
                           <div className="column">
-                            <div className="font subtitle is-4">
+                            <div className="font subtitle is-4 has-text-weight-bold">
                               1<sup>th</sup> October 2019
                             </div>
                           </div>
@@ -102,12 +102,12 @@ class Section2 extends Component {
 
                         <div className="columns">
                           <div className="column">
-                            <div className="font subtitle is-4">
+                            <div className="font subtitle is-4 has-text-weight-bold">
                               Late Registration Start Date:
                             </div>
                           </div>
                           <div className="column">
-                            <div className="font subtitle is-4">
+                            <div className="font subtitle is-4 has-text-weight-bold">
                               11
                               <sup>th</sup> November 2019
                             </div>
