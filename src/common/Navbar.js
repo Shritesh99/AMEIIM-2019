@@ -44,7 +44,7 @@ class Navbar extends Component {
                   </div>
 
                 </div>
-                <a href="/accmodation" className="navbar-item">
+                <a href="/accommodation" className="navbar-item">
                   <div className="font subtitle is-5">ACCMODATIONS</div>
                 </a>
                 <a href="/aboutus" className="navbar-item">
@@ -55,6 +55,15 @@ class Navbar extends Component {
                     <span className="button is-success is-medium">
                       <div className="font subtitle is-4 has-text-white">
                         Register
+                      </div>
+                    </span>
+                  </a>
+                </div>
+                <div className="navbar-item">
+                  <a href="https://easychair.org/conferences/?conf=ameiim2019">
+                    <span className="button is-success is-medium">
+                      <div className="font subtitle is-4 has-text-white">
+                        Submit Papers
                       </div>
                     </span>
                   </a>

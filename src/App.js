@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Loader from "react-loader-spinner";
 import AboutUs from "./AboutUs";
 import Home from "./Home";
 import Committee from "./Committee";
@@ -12,6 +11,7 @@ import Reach from "./Reach";
 import Papers from "./Papers";
 import Speaker from "./Speakers";
 import Register from "./Register";
+import Conference from "./Conference";
 
 
 class App extends Component {
@@ -23,10 +23,10 @@ class App extends Component {
             <Route path="/register" exact component={Register} />
             <Route path="/speakers" exact component={Speaker} />
             <Route path="/papers" exact component={Papers} />
-            <Route path="/reach" exact component={Papers} />
+            <Route path="/reach" exact component={Reach} />
             <Route path="/committee" exact component={Committee} />
-            <Route path="/conference" component={Reach} />
-            <Route path="/accommodations" component={Accommodations} />
+            <Route path="/conference" component={Conference} />
+            <Route path="/accommodation" component={Accommodations} />
             <Route path="/aboutus" component={AboutUs} />
             <Footer />
         </Router>

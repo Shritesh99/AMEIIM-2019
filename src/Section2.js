@@ -3,9 +3,9 @@ import React, { Component } from "react";
 class Section2 extends Component {
   render() {
     return (
-      <section id="dates" className="container section">
+      <section id="dates" className="container">
         <div className="has-text-centered">
-          <div className="columns is-vcentered">
+          <div className="columns">
             <div className="column">
               <div className="card">
                 <div className="card-header level">

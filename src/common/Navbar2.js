@@ -5,7 +5,7 @@ class Navbar2 extends Component {
     return (
       <div className="hero-head" style={{ marginTop: 30}}>
         <div className="columns">
-          <div className="column has-text-right is-two-fifths">
+          <div className="column has-text-right has-text-centered-mobile is-two-fifths">
               <img alt="Submit" style={{ width: 150, height: 170}} src={require("../img/logo1.jpeg")} />
           </div>
           <div className="column has-text-left">

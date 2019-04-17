@@ -185,6 +185,31 @@ class Register extends Component {
               <ul>
                 <li>
                   <div className="font subtitle is-5 has-text-left">
+                    Authors submitting Abstract only will be considered for Poster Presentation & Publication in Conference Proceedings after review.
+                  </div>
+                </li>
+                <li>
+                  <div className="font subtitle is-5 has-text-left">
+                    Authors submitting full paper will be considered for Oral Presentation & Publication in Springer (Scopus Indexed) & Industrial Engineering Journal and / Udyog Pragati: The Journal for Practicing Managers subjected to peer review policy and terms & conditions of publisher.
+                  </div>
+                </li>
+                <li>
+                  <div className="font subtitle is-5 has-text-left">
+                    Plagiarism should be strictly avoided for final publication. Plagiarized manuscripts may be rejected at any stage during conference peer review/publication schedule etc.
+                  </div>
+                </li>
+                <li>
+                  <div className="font subtitle is-5 has-text-left">
+                    No registration after 20<sup>th</sup> November 2019 shall be entertained.
+                  </div>
+                </li>
+                <li>
+                  <div className="font subtitle is-5 has-text-left">
+                    Accompanying person will be offered a 10 % discount in registration fees.
+                  </div>
+                </li>
+                <li>
+                  <div className="font subtitle is-5 has-text-left">
                     It is mandatory for at least one author to register for each
                     paper and present the paper for inclusion in the conference
                     proceedings. It is up to the discretion of the Conference
