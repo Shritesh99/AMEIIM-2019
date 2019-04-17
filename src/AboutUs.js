@@ -16,9 +16,11 @@ class AboutUs extends Component {
             <div className="columns is-vcentered">
               <div className="column">
                 <div className="font subtitle is-3 has-text-black">
+                  <a style={{ textDecorationLine: 'underline'}} href="/">
                   AMEIIM-2019
+                  </a>
                 </div>
-                <div className="font subtitle is-4 has-text-centered">
+                <div className="font subtitle is-4 has-text-justified">
                   On stepping into its successful 60th year, Department of
                   Mechanical Engineering, NIT Raipur is organizing its 1st
                   International Conference on Advances in Mechanical
@@ -52,9 +54,11 @@ class AboutUs extends Component {
               </div>
               <div className="column">
                 <div className="font subtitle is-3 has-text-black">
+                  <a style={{ textDecorationLine: 'underline'}} href="http://www.nitrr.ac.in/">
                   NIT RIAIPUR
+                  </a>
                 </div>
-                <div className="font subtitle is-4 has-text-centered">
+                <div className="font subtitle is-4 has-text-justified">
                   National Institute of Technology Raipur situated in the
                   capital of a newly incepted state of Chhattisgarh, has proven
                   to be "Avantgrade' in the field of science and technology over
@@ -79,9 +83,11 @@ class AboutUs extends Component {
             <div className="columns is-vcentered">
               <div className="column">
                 <div className="font subtitle is-3 has-text-black">
+                  <a style={{ textDecorationLine: 'underline'}} href="http://www.nitrr.ac.in/aboutmechanical.php">
                   MECHANICAL ENGINEERING DEPARTMENT
+                  </a>
                 </div>
-                <div className="font subtitle is-4 has-text-centered">
+                <div className="font subtitle is-4 has-text-justified">
                   The Mechanical department started in the year 1958 and
                   department offers undergraduate program (B.Tech.) in
                   Mechanical Engineering and Postgraduate program (M.Tech.) in
@@ -95,8 +101,8 @@ class AboutUs extends Component {
                 </div>
               </div>
               <div className="column has-text-right">
-                <figure className="image" style={{ padding: 100 }}>
-                  <img alt="Submit" src={require("./img/logo1.jpeg")} />
+                <figure className="image">
+                  <img alt="Submit" style={{width: 1000, height: 400}} src={require("./img/Nitrr.jpeg")} />
                 </figure>
               </div>
             </div>
@@ -113,7 +119,7 @@ class AboutUs extends Component {
               </div>
               <div className="column">
                 <div className="font subtitle is-3 has-text-black">RAIPUR</div>
-                <div className="font subtitle is-4 has-text-centered">
+                <div className="font subtitle is-4 has-text-justified">
                   Raipur, capital of Chhattisgarh is a historical city of India.
                   Energy Park, Gandhi Udyan, Purkhouti Muktangan, Burha Sarowar,
                   Guru Ghasidas Museum, Nandanwan Zoo, Mahamaya Temple etc. are

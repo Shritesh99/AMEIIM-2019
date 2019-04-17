@@ -26,9 +26,24 @@ class Navbar extends Component {
                 <a href="/committee" className="navbar-item">
                   <div className="font subtitle is-5">COMMITTEE</div>
                 </a>
-                <a href="/conference" className="navbar-item">
+                <div className="navbar-item has-dropdown is-hoverable">
+                <a href="/conference" className="navbar-item ">
                   <div className="font subtitle is-5">CONFERENCE</div>
                 </a>
+
+                  <div class="navbar-dropdown">
+                    <a href="/speakers" class="navbar-item">
+                      KEYNOTE SPEAKERS
+                    </a>
+                    <a href="/papers" class="navbar-item">
+                      CALL FOR PAPERS
+                    </a>
+                    <a href="/reach" class="navbar-item">
+                      HOW TO REACH NIT RAIPUR
+                    </a>
+                  </div>
+
+                </div>
                 <a href="/accmodation" className="navbar-item">
                   <div className="font subtitle is-5">ACCMODATIONS</div>
                 </a>
@@ -36,7 +51,7 @@ class Navbar extends Component {
                   <div className="font subtitle is-5">ABOUT US</div>
                 </a>
                 <div className="navbar-item">
-                  <a href="/#register">
+                  <a href="/register">
                     <span className="button is-success is-medium">
                       <div className="font subtitle is-4 has-text-white">
                         Register
@@ -55,7 +70,7 @@ class Navbar extends Component {
               >
                   <marquee onMouseover="this.stop()" onmouseout="this.start()" scrollamount="4" behavior="scroll" direction="left">
                     <div className="font subtitle is-4 has-text-white">
-                      Last Date Abstract submission: 15th July 2019
+                      Last Date Abstract submission: 15<sup>th</sup> July 2019
                     </div>
                  </marquee>
               </div>

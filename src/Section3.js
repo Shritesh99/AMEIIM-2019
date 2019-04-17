@@ -13,7 +13,7 @@ class Section3 extends Component {
           <div className="container has-text-centered">
             <div className="columns is-vcentered">
               <div className="column">
-                <div className="font subtitle is-4 has-text-centered">
+                <div className="font subtitle is-4 has-text-justified">
                   Abstract and full length paper need to be submitted through
                   the EasyChair web-portal using the following{" "}
                   <a href="https://easychair.org/conferences/?conf=ameiim2019">
@@ -37,8 +37,8 @@ class Section3 extends Component {
                           style={{ height: 70, width: 262, margin: 20}}
                         />
                           <div className="button is-success is-large">
-                              <div className="font subtitle is-3 has-text-white">
-                                  Register
+                              <div className="font subtitle is-4 has-text-white">
+                                  Submit Through Easychair
                               </div>
                           </div>
                       </figure>
@@ -48,11 +48,18 @@ class Section3 extends Component {
 
                     </div>
                 </div>
-              </div>
-              <div className="column">
-                <figure className="image">
-                  <img alt="Submit" src={require("./img/submit.svg")} />
-                </figure>
+                <div style={{ padding: 10}}>
+                  <div
+                      className="has-text-centered"
+                      style={{ backgroundColor: "#7FCF6F" }}
+                  >
+                    <marquee onMouseover="this.stop()" onmouseout="this.start()" scrollamount="4" behavior="scroll" direction="left">
+                      <div className="font subtitle is-4 has-text-white">
+                        All the accepted papers will be published in Springer (Scopus Indexed) & Industrial Engineering Journal and / Udyog Pragati: The Journal for Practicing Managers
+                      </div>
+                    </marquee>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -18,24 +18,24 @@ class Footer extends Component{
                             <div className="columns">
                                 <div className="column">
                                     <div className="subtitle is-5 subheading has-text-left">
-                                        <b>Dr. Suraj Kumar Mukti</b>
-                                    </div>
-                                </div>
-                                <div className="column">
-                                    <div className="subtitle is-5 subheading has-text-left">
-                                        +91-9302837666
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="columns">
-                                <div className="column">
-                                    <div className="subtitle is-5 subheading has-text-left">
                                         <b>Dr. Jagadish</b>
                                     </div>
                                 </div>
                                 <div className="column">
                                     <div className="subtitle is-5 subheading has-text-left">
                                         +91-8811940517
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="columns">
+                                <div className="column">
+                                    <div className="subtitle is-5 subheading has-text-left">
+                                        <b>Dr. Suraj Kumar Mukti</b>
+                                    </div>
+                                </div>
+                                <div className="column">
+                                    <div className="subtitle is-5 subheading has-text-left">
+                                        +91-9302837666
                                     </div>
                                 </div>
                             </div>
