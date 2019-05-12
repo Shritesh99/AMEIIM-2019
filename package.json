@@ -2,7 +2,6 @@
   "name": "conf",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://shritesh99.github.io/AMEIIM-2019/",
   "dependencies": {
     "bulma": "^0.7.4",
     "gh-pages": "^2.0.1",
