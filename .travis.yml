@@ -13,7 +13,7 @@ after-success:
 
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   
-  -docker push shritesh99/ameiim-2019
+  - docker push shritesh99/ameiim-2019
 
 deploy:
   provider: elasticbeanstalk
