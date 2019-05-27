@@ -17,7 +17,7 @@ import Conference from "./Conference";
 class App extends Component {
   render() {
       return (
-        <Router>
+        <Router basename="http://ameiim2019-env.k9iyxeisze.us-east-1.elasticbeanstalk.com">
             <Navbar/>
             <Route path="/" exact component={Home} />
             <Route path="/register" exact component={Register} />
