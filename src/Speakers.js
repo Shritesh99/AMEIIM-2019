@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from 'react-router-dom';
 class Speaker extends Component {
     render() {
         return (
@@ -18,8 +18,8 @@ class Speaker extends Component {
                                 <div className="card">
                                     <div className="card-image">
                                         <div className="has-text-centered">
-                                            <a
-                                                href="https://scholar.google.co.in/citations?user=mgj0B34AAAAJ&hl=en"
+                                            <Link
+                                                to="https://scholar.google.co.in/citations?user=mgj0B34AAAAJ&hl=en"
                                                 target="_blank"
                                             >
                                                 <img
@@ -34,7 +34,7 @@ class Speaker extends Component {
                                                 >
                                                     Dr. Kapil Gupta
                                                 </div>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="card-content">

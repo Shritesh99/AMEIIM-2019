@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from 'react-router-dom';
 class Reach extends Component {
   render() {
     return (
@@ -16,55 +16,55 @@ class Reach extends Component {
 
                 <div className="font subtitle is-4 has-text-left">
                   <div style={{backgroundColor: "#7FCF6F", padding: 5 }}>
-                    <a
-                        href="http://www.nitrr.ac.in/viewdetails.php?q=me.smukti"
+                    <Link
+                        to="http://www.nitrr.ac.in/viewdetails.php?q=me.smukti"
                         target="_blank"
                         className="has-text-white und"
                     >
                       <div className="has-text-white"> Dr. Suraj Kumar Mukti</div>
-                    </a>
+                    </Link>
                   </div>
                   Assistant Professor <br />
                   Dept. of ME
                   <br />
                   NIT Raipur
                   <br />
-                  <a href="tel:+919302837666"><i className="fas fa-phone fa-lg" />{"  "}+91-9302837666</a>
+                  <Link to="tel:+919302837666"><i className="fas fa-phone fa-lg" />{"  "}+91-9302837666</Link>
                   <br />
-                  <a
-                      href="mailto:skmukti.mech@nitrr.ac.in"
+                  <Link
+                      to="mailto:skmukti.mech@nitrr.ac.in"
                       className="has-text-link"
                   ><i className="fas fa-envelope fa-lg" />
                     {"  "}
                     skmukti.mech@nitrr.ac.in
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="font subtitle is-4 has-text-left">
 
                   <div style={{backgroundColor: "#7FCF6F", padding: 5 }}>
-                    <a
-                        href="http://www.nitrr.ac.in/viewdetails.php?q=mech.jagadish"
+                    <Link
+                        to="http://www.nitrr.ac.in/viewdetails.php?q=mech.jagadish"
                         target="_blank"
                         className="has-text-white und"
                     >
                       <div className="has-text-white">Dr. Jagadish</div>
-                    </a>
+                    </Link>
                   </div>
                   Assistant Professor <br />
                   Dept. of Mechanical Engineering
                   <br />
                   NIT Raipur
                   <br />
-                  <a href="tel:+918811940517"><i className="fas fa-phone fa-lg" />{"  "}+91-8811940517</a>
+                  <Link to="tel:+918811940517"><i className="fas fa-phone fa-lg" />{"  "}+91-8811940517</Link>
                   <br />
-                  <a
-                    href="mailto:jagadish.mech@nitrr.ac.in"
+                  <Link
+                    to="mailto:jagadish.mech@nitrr.ac.in"
                     className="has-text-link"
                   ><i className="fas fa-envelope fa-lg" />
                     {"  "}
                     jagadish.mech@nitrr.ac.in
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="column">

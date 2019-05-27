@@ -1,18 +1,18 @@
 import React, { Component } from "react";
-
+import { Link } from 'react-router-dom';
 class Register extends Component {
   render() {
     return (
       <section id="committee" className="section hero">
         <div className="hero-head">
           <div className="container has-text-centered">
-            <a href="#">
+            <Link to="#">
               <div className="button is-success is-large">
                 <div className="font subtitle is-4 has-text-white">
                   Download Brochure
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="hero-body">

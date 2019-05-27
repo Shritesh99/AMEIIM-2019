@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Slide } from 'react-slideshow-image';
 import Navbar2 from "./common/Navbar2";
-
+import { Link } from 'react-router-dom';
 class Section1 extends Component {
   render() {
     const properties = {
@@ -44,15 +44,15 @@ class Section1 extends Component {
                   13<sup>th</sup>-14<sup>th</sup> December 2019
                 </div>
 
-                <a href="/register">
+                <Link to="/register">
                   <div className="button is-success is-large">
                     <div className="font subtitle is-4 has-text-white">
                       Register
                     </div>
                   </div>
-                </a>
+                </Link>
                 <br />
-                <a href="#">
+                <Link to="#">
                   <div
                     className="button is-success is-large"
                     style={{ margin: 15 }}
@@ -61,7 +61,7 @@ class Section1 extends Component {
                       Download Brochure
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

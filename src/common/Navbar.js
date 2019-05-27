@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from 'react-router-dom';
 class Navbar extends Component {
   render() {
     return (
@@ -7,57 +7,57 @@ class Navbar extends Component {
         <nav className="navbar" style={{ marginTop: 10 }}>
           <div className="container">
             <div className="navbar-brand">
-              <a href="/">
+              <Link to="/">
                 <figure className="image is-48x48">
                   <img alt="Submit" src={require("../img/logo.svg")} />
                 </figure>
-              </a>
-              <a className="navbar-item" href="/">
+              </Link>
+              <Link className="navbar-item" to="/">
                 <div className="title">
                   <div className="subHeading">AMEIIM-2019</div>
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="navbar-menu">
               <div className="navbar-end">
-                <a href="/#dates" className="navbar-item">
+                <a href="#dates" className="navbar-item">
                     <div className="font subtitle is-5">DATES</div>
                 </a>
-                <a href="/committee" className="navbar-item">
+                <Link to="/committee" className="navbar-item">
                   <div className="font subtitle is-5">COMMITTEE</div>
-                </a>
+                </Link>
                 <div className="navbar-item has-dropdown is-hoverable">
-                <a href="/conference" className="navbar-item ">
+                <Link to="/conference" className="navbar-item ">
                   <div className="font subtitle is-5">CONFERENCE</div>
-                </a>
+                </Link>
 
-                  <div class="navbar-dropdown">
-                    <a href="/speakers" class="navbar-item">
+                  <div className="navbar-dropdown">
+                    <Link to="/speakers" class="navbar-item">
                       KEYNOTE SPEAKERS
-                    </a>
-                    <a href="/papers" class="navbar-item">
+                    </Link>
+                    <Link to="/papers" class="navbar-item">
                       CALL FOR PAPERS
-                    </a>
-                    <a href="/reach" class="navbar-item">
+                    </Link>
+                    <Link to="/reach" class="navbar-item">
                       HOW TO REACH NIT RAIPUR
-                    </a>
+                    </Link>
                   </div>
 
                 </div>
-                <a href="/accommodation" className="navbar-item">
+                <Link to="/accommodation" className="navbar-item">
                   <div className="font subtitle is-5">ACCMODATIONS</div>
-                </a>
-                <a href="/aboutus" className="navbar-item">
+                </Link>
+                <Link to="/aboutus" className="navbar-item">
                   <div className="font subtitle is-5">ABOUT US</div>
-                </a>
+                </Link>
                 <div className="navbar-item">
-                  <a href="/register">
+                  <Link to="/register">
                     <span className="button is-success is-medium">
                       <div className="font subtitle is-4 has-text-white">
                         Register
                       </div>
                     </span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="navbar-item">
                   <a href="https://easychair.org/conferences/?conf=ameiim2019">

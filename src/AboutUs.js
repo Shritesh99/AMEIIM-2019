@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from 'react-router-dom';
 class AboutUs extends Component {
   render() {
     return (
@@ -16,9 +16,9 @@ class AboutUs extends Component {
             <div className="columns is-vcentered">
               <div className="column">
                 <div className="font subtitle is-3 has-text-black">
-                  <a style={{ textDecorationLine: 'underline'}} href="/">
+                  <Link style={{ textDecorationLine: 'underline'}} to="/">
                   AMEIIM-2019
-                  </a>
+                  </Link>
                 </div>
                 <div className="font subtitle is-4 has-text-justified">
                   On stepping into its successful 60th year, Department of
@@ -54,9 +54,9 @@ class AboutUs extends Component {
               </div>
               <div className="column">
                 <div className="font subtitle is-3 has-text-black">
-                  <a style={{ textDecorationLine: 'underline'}} href="http://www.nitrr.ac.in/">
+                  <Link style={{ textDecorationLine: 'underline'}} to="http://www.nitrr.ac.in/">
                   NIT RIAIPUR
-                  </a>
+                  </Link>
                 </div>
                 <div className="font subtitle is-4 has-text-justified">
                   National Institute of Technology Raipur situated in the
@@ -83,9 +83,9 @@ class AboutUs extends Component {
             <div className="columns is-vcentered">
               <div className="column">
                 <div className="font subtitle is-3 has-text-black">
-                  <a style={{ textDecorationLine: 'underline'}} href="http://www.nitrr.ac.in/aboutmechanical.php">
+                  <Link style={{ textDecorationLine: 'underline'}} to="http://www.nitrr.ac.in/aboutmechanical.php">
                   MECHANICAL ENGINEERING DEPARTMENT
-                  </a>
+                  </Link>
                 </div>
                 <div className="font subtitle is-4 has-text-justified">
                   The Mechanical department started in the year 1958 and

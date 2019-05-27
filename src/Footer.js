@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from 'react-router-dom';
 class Footer extends Component{
     render() {
         return(
@@ -50,7 +50,7 @@ class Footer extends Component{
                                 Department of Mechanical Engineering,<br/>
                                 National Institute of Technology Raipur,<br/>
                                 G.E. Road, Raipur (CG)-492010<br/>
-                                Email: <a href="mailto:ameiim2019@gmail.com">ameiim2019@gmail.com</a>
+                                Email: <Link to="mailto:ameiim2019@gmail.com">ameiim2019@gmail.com</Link>
                             </address>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ class Footer extends Component{
                         © 2019 | AMEIIM-2019. All Rights Reserved
                     </div>
                     <div className="subtitle is-6 heading has-text-centered">
-                        Developed and Maintained By <a href="http://shri99.me/" target="_blank">Shritesh (NIT Raipur)</a>.
+                        Developed and Maintained By <Link to="http://shri99.me/" target="_blank">Shritesh (NIT Raipur)</Link>.
                     </div>
                 </div>
             </footer>

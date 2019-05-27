@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from 'react-router-dom';
 class Conference extends Component {
   render() {
     return (
@@ -7,9 +7,9 @@ class Conference extends Component {
         <div className="hero-head">
           <div className="container has-text-centered">
             <div className="title is-2 heading">
-                    <a style={{ textDecorationLine: 'underline'}} href="/">
+                    <Link style={{ textDecorationLine: 'underline'}} to="/">
                         AMEIIM-2019
-                    </a>
+                    </Link>
             </div>
           </div>
         </div>
