@@ -8,17 +8,10 @@ before_install:
 script:
   - docker run shritesh99/ameiim-2019 npm run test -- --coverage
 
-after-success:
-  - docker build -t shritesh99/ameiim-2019 .
-
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-  
-  - docker push shritesh99/ameiim-2019
-
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "AMEIIM-2019"
+  app: "ameiim-2019"
   env: "Ameiim2019-env"
   bucket_name: "elasticbeanstalk-us-east-1-730759799218"
   bucket_path: "ameiim-2019"
